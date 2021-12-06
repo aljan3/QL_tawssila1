@@ -44,7 +44,7 @@ public interface AnnonceRepository extends JpaRepository<Annonce, Long> {
 	
 	
 	Collection<Annonce> findByUser(User user);
-
+	// najla added smh jenkins tp
 
 
 
