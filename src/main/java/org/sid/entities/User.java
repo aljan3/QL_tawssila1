@@ -26,18 +26,31 @@ public class User implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+
 	private String nom;
+
 	private String prenom;
+
 	private String sexe;
+
 	private String password;
+
 	private String email;
+
 	private String age;
+
 	private String biographie;
+
 	private String image;
+
 	private double rating;
+
 	@Type(type = "text")
+
 	private String salt ; 
+
 	private String hashed ; 
+
 
 	
 
